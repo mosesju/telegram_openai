@@ -1,4 +1,4 @@
-instructor==0.4.6
+
 openai==1.6.1
 pydantic==2.5.3
 python-dotenv==1.0.0

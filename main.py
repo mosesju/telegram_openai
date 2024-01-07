@@ -12,12 +12,12 @@ from supabase import create_client
 from openai_calls import generate_response_3_5_turbo, get_embedding
 from supabase_calls import update_interaction_supabase, query_supabase
 from utils import extract_sentence
-import instructor
+# import instructor
 
 
 load_dotenv()
 client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
-instructor_client =instructor.patch(client)
+# instructor_client =instructor.patch(client)
 supabase = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_API_KEY"))
 
 
